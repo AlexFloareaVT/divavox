@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #1e1e1e;
+  background-color: rgba(0,0,0,0.99);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -123,13 +123,20 @@ Global Styles
 */
 html,
 body {
-  background: #1f2122;
+  background-image: url("/assets/images/Galaxy.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: #27292a;
+  background-color: rgba(0,0,0,0.6);
   padding: 60px;
   border-radius: 23px;
 }
@@ -238,14 +245,14 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99);
+  background-color: rgba(1,1,1,0.0);
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
   z-index: 9999;
   -webkit-transition: opacity 0.25s ease;
@@ -335,13 +342,13 @@ Header Style
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: transparent !important;
   height: 70px!important;
   position: fixed!important;
   top: 0!important;
   left: 0;
   right: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.0)!important;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -392,7 +399,7 @@ Header Style
 
 .header-area .main-nav #search i {
   position: absolute;
-  color: #666;
+  color: #6266;
   left: 20px;
   top: 16px;
   width: 18px;
@@ -401,9 +408,9 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  border-right: 1px solid #27292a;
+  border-right: 0px solid #FF3E3E;
   flex-basis: 25%;
-  margin-right: 5%;
+  margin-right: 2%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -411,7 +418,8 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 191px;
+  width: 291px;
+	
 }
 
 .background-header .main-nav .logo {
@@ -428,7 +436,7 @@ Header Style
   justify-content: flex-end;
   vertical-align: middle;
   text-align: right;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-right: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -449,7 +457,7 @@ Header Style
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
-  color: #666;
+  color: #FFFFFF;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -461,7 +469,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
+  background-color: rgba(0,0,0,0.5);
   padding: 8px 10px 8px 20px;
   border-radius: 23px;
 }
@@ -783,7 +791,7 @@ Banner Style
 
 .main-banner h6 {
   font-size: 20px;
-  color: #fff;
+  color: #;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -808,12 +816,12 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: rgba(0,0,0,0.7);
   border-radius: 23px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
+  background-color: #e75e8d;
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
@@ -838,7 +846,7 @@ Most Popular Style
 }
 
 .most-popular .item span {
-  color: #666;
+  color: #FFFFFF;
   display: block;
   margin-top: 7px;
   font-weight: 400;
