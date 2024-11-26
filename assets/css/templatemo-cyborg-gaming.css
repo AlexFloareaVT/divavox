@@ -123,14 +123,13 @@ Global Styles
 */
 html,
 body {
-  background-image: url("../images/GalaxyDark.png");
-  background-size: cover;
+  background-color: #2D2D2D;
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
   margin-top: 110px;
-  background-color: rgba(0,0,0,0.6);
+  background-color: #373737;
   padding: 60px;
   border-radius: 23px;
 }
@@ -810,7 +809,7 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #2E2E2E;
   border-radius: 23px;
 }
 
