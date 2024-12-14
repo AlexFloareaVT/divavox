@@ -123,15 +123,18 @@ Global Styles
 */
 html,
 body {
-  background-color: #2D2D2D;
+background: rgb(20,15,20);
+	box-shadow: inset 0px 0px 50px rgba(1,1,1,1);
   font-family: 'Poppins', sans-serif;
 }
 
 body .page-content {
-  margin-top: 110px;
-  background-color: #373737;
-  padding: 60px;
+  margin-top: 90px;
+  background-color: #e75e8d;
+  padding: 30px;
   border-radius: 23px;
+	box-shadow: 0px 0px 50px rgba(1,1,1,1);
+	box-shadow: inset 0px 0px 20px #ef80a7;
 }
 
 p {
@@ -144,11 +147,13 @@ p {
 ::selection {
   background: #e75e8d;
   color: #fff;
+	box-shadow: 0px 0px 50px rgba(1,1,1,1);
 }
 
 ::-moz-selection {
   background: #e75e8d;
   color: #fff;
+	box-shadow: 0px 0px 50px rgba(1,1,1,1);
 }
 
 .templatemo-item {
@@ -190,6 +195,7 @@ p {
   transition: all .3s;
   position: relative;
   overflow: hidden;
+	box-shadow: 0px 0px 50px rgba(1,1,1,1);
 }
 
 .main-border-button a:hover {
@@ -210,7 +216,7 @@ p {
 }
 
 section {
-  margin-top: 1200px;
+  margin-top: 1000px;
 }
 
 .heading-section h4 {
@@ -351,9 +357,9 @@ Header Style
 
 .header-area {
   background-color: transparent;
-  position: absolute;
-  height: 70px;
-  top: 15px;
+  position:absolute;
+  height: 20px;
+  top: 10px;
   left: 0;
   right: 0;
   z-index: 100;
@@ -361,12 +367,13 @@ Header Style
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+	
 }
 
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
-  display: flex;
+  display:contents;
   padding: 15px 0px;
   border-radius: 50px;
 }
@@ -403,7 +410,7 @@ Header Style
 .header-area .main-nav .logo {
   border-right: 0px solid #FF3E3E;
   flex-basis: 25%;
-  margin-right: 2%;
+  margin-right: 15%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -780,6 +787,7 @@ Banner Style
   min-height: 380px;
   border-radius: 23px;
   padding: 80px 60px;
+	box-shadow: inset 0px 0px 15px rgba(1,1,1,1);
 }
 
 .main-banner h6 {
@@ -803,10 +811,11 @@ Banner Style
 .divavox-banner {
   background-image: url("../images/DivaVoxSingers.png");
   background-position: center;
-  background-size: cover;
-  min-height: 380px;
+  background-size:cover;
+  min-height: 420px;
   border-radius: 23px;
   padding: 80px 60px;
+	box-shadow: inset 0px 0px 15px rgba(1,1,1,1);
 }
 
 .main-banner h6 {
@@ -836,8 +845,9 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #2E2E2E;
+  background-color: rgb(20,15,20);
   border-radius: 23px;
+	box-shadow: inset 0px 0px 15px rgba(1,1,1,1);
 }
 
 .most-popular .item {
@@ -845,6 +855,7 @@ Most Popular Style
   padding: 30px 15px;
   border-radius: 23px;
   margin-bottom: 30px;
+	box-shadow: inset 0px 0px 10px #ef80a7;
 }
 
 .most-popular .item .item {
@@ -852,10 +863,13 @@ Most Popular Style
   border-radius: 0px;
   background-color: transparent;
   margin-bottom: 0px;
+	
+	
 }
 
 .most-popular .item img {
-  border-radius: 23px;
+  border-radius: 25px;
+	box-shadow: 0px 0px 20px #ef80a7;
 }
 
 .most-popular .item h4 {
@@ -875,12 +889,14 @@ Most Popular Style
 .most-popular .item ul {
   float: right;
   margin-top: 20px;
+	
 }
 
 .most-popular .item ul li {
   text-align: right;
   color: #fff;
   font-size: 14px;
+
 }
 
 .most-popular .item ul li:first-child i {
@@ -992,7 +1008,7 @@ Featured Games Style
 
 .featured-games {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
   padding: 30px;
 }
 
@@ -1201,7 +1217,7 @@ Live Stream Style
 .live-stream {
   margin-top: 60px;
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
   padding: 30px;
 }
 
@@ -1339,7 +1355,7 @@ Game Details Style
 .game-details .content {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
 }
 
 .game-details .content .left-info {
@@ -1429,7 +1445,7 @@ Other Related Style
 .other-games {
   border-radius: 23px;
   padding: 30px 30px 0px 30px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
   margin-top: 60px;
 }
 
@@ -1486,7 +1502,7 @@ Top Streamers Style
 
 .top-streamers {
   border-radius: 23px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
   padding: 30px;
   max-height: 567px;
   min-height: 567px;
@@ -1552,13 +1568,14 @@ Profile Style
 .main-profile {
   border-radius: 23px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: rgb(20,15,20);
+	box-shadow: inset 0px 0px 15px rgba(1,1,1,1);
 }
 
 .main-profile .main-info span {
   font-size: 14px;
   color: #fff;
-  background-color: #e75e8d;
+  background-color: #3A1522;
   padding: 8px 20px;
   display: inline-block;
   border-radius: 25px;
@@ -1579,13 +1596,14 @@ Profile Style
 .main-profile ul {
   border-radius: 23px;
   padding: 30px;
-  background-color: #27292a;
+  background-color: #5F2036;
+	box-shadow: 0px 0px 15px rgba(1,1,1,1);
 }
 
 .main-profile ul li {
   width: 100%;
   font-size: 14px;
-  color: #666;
+  color: white;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #666;
@@ -1594,7 +1612,7 @@ Profile Style
 .main-profile ul li span {
   float: right;
   font-weight: 500;
-  color: #ec6090;
+  color: white;
 }
 
 .main-profile ul li:last-child {
